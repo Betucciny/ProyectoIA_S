@@ -1,0 +1,99 @@
+:root{
+  --grid-size: 35vw;
+  --margin-size: 1em;
+  --square-size: calc((var(--grid-size)/3) - var(--margin-size))
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Abel', serif;
+  font-style: normal;
+  width: 100vw;
+  align-items: self-end;
+  background: url('assets/imgs/52e07824baa00f4f5b4b26ee4392db55.jpg');
+  background-size: cover;
+}
+
+
+
+/*Header*/
+header{
+  height: 20vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+  position: absolute;
+}
+
+.logo--UPIIT{
+  display: flex;
+  width: 25%;
+  justify-content: center;
+}
+
+.logo--IPN{
+  display: flex;
+  width: 25%;
+  justify-content: center;
+}
+
+.titulo--contenedor{
+  display: flex;
+  font-size: 1.7rem;
+  color:#75003E;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.img--whidt img{
+  max-height: 13em;
+  max-width: 13em;
+  
+  align-items: center;
+}
+
+.img--whidt--IPN img{
+  max-height: 12em;
+  max-width: 12em;
+  align-items: center;
+}
+
+main{
+  display: flex;
+  padding-top: 25vh;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.container--main{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container--main div{
+  width: 45%;
+}
+
+.container--main div iframe, .container--main div pre{
+  width: 100%;
+  height: 50vh;
+  overflow-y: scroll;
+  background: white;
+  border: solid black;
+}
+
+.container--main pre span{
+  color: blue;
+}
+
