@@ -97,3 +97,39 @@ main{
   color: blue;
 }
 
+button{
+  position: inherit;
+  cursor: pointer;
+  width: 4.3rem;
+  height: 100%;
+  left: 0;
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+#datos{
+  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+#datos img{
+  height: 90vh;
+  align-self: stretch;
+}
+
+polyline{
+  transition: all 250ms ease-in-out;
+}
+
+.button:hover, .button:focus{
+  stroke-width: 3;
+}
+
+#general{
+  width: 100%;
+  align-content: center;
+}
