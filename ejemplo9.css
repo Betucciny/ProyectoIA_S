@@ -119,6 +119,7 @@ button{
 #datos img{
   height: 90vh;
   align-self: stretch;
+  max-width: 85vw;
 }
 
 polyline{
