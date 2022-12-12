@@ -56,11 +56,11 @@ class Galeria{
 }
 
 const REGALOS_ENLACES = [
-    'https://media.giphy.com/media/27ppQUOxe7KlG/giphy.gif',
-    'https://media.giphy.com/media/LEcRaYyUptIxG/giphy.gif',
-    'https://media.giphy.com/media/3BBv1D4AFbJkY/giphy.gif',
-    'https://media.giphy.com/media/13smkcXZiTLDgc/giphy.gif',
-    'https://media.giphy.com/media/GknfGjiYhsFQk/giphy.gif'
+    'assets/imgs/Imagen1.png',
+    'assets/imgs/Imagen2.png',
+    'assets/imgs/Imagen3.png',
+    'assets/imgs/Imagen4.png',
+    'assets/imgs/Imagen5.png'
 ];
 
 const cont = document.querySelector('#datos')
