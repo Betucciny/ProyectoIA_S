@@ -109,6 +109,7 @@ button{
 }
 
 #datos{
+  justify-content:space-between;
   align-self: center;
   align-items: center;
   display: flex;
